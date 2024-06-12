@@ -1,0 +1,340 @@
+Assignment 01
+
+
+1. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ man man
+    Manual page man(1) line 1 (press h for help or q to quit)
+
+2. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ uname -a
+   Linux sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA 6.5.0-28-generic #29~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Apr  4 14:39:20 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+   
+   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ uname -s
+   Linux
+
+3. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Documents/My_OS$ pwd
+   /home/sunbeam/Documents/My_OS
+   
+4. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ hostname -A
+   sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA
+   
+   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ hostname -i
+   127.0.1.1
+   
+   
+   
+5. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ date
+   Friday 31 May 2024 06:17:09 PM IST
+   
+ 6. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cal
+      May 2024        
+  Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+   5  6  7  8  9 10 11  
+  12 13 14 15 16 17 18  
+  19 20 21 22 23 24 25  
+  26 27 28 29 30 31 
+  
+   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cal -y
+                            2024
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3                  1  2  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   3  4  5  6  7  8  9  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  10 11 12 13 14 15 16  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  17 18 19 20 21 22 23  
+28 29 30 31           25 26 27 28 29        24 25 26 27 28 29 30  
+                                            31                    
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6            1  2  3  4                     1  
+ 7  8  9 10 11 12 13   5  6  7  8  9 10 11   2  3  4  5  6  7  8  
+14 15 16 17 18 19 20  12 13 14 15 16 17 18   9 10 11 12 13 14 15  
+21 22 23 24 25 26 27  19 20 21 22 23 24 25  16 17 18 19 20 21 22  
+28 29 30              26 27 28 29 30 31     23 24 25 26 27 28 29  
+                                            30                    
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3   1  2  3  4  5  6  7  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   8  9 10 11 12 13 14  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  15 16 17 18 19 20 21  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  22 23 24 25 26 27 28  
+28 29 30 31           25 26 27 28 29 30 31  29 30                 
+                                                                  
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5                  1  2   1  2  3  4  5  6  7  
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   8  9 10 11 12 13 14  
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  15 16 17 18 19 20 21  
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  22 23 24 25 26 27 28  
+27 28 29 30 31        24 25 26 27 28 29 30  29 30 31 
+
+
+
+
+ 7.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls
+      
+      sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ dir
+      
+      sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -a
+      
+      sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -A
+      
+      sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -l
+      
+      sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -S
+      
+      sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -r
+      
+      sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -R
+      
+      sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -i
+      
+      sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -h
+      
+      
+  8.  sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat dbt.txt
+  
+      sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat > sample.txt
+      Hello there!
+
+      sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat sample.txt
+      Hello there!
+      
+  9. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat >> sample.txt
+     How are you ?    
+     ...appending text...
+
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat sample.txt
+     Hello there!
+     How are you ?
+     ...appending text...
+     
+ 10. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ mkdir test01
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cd test01
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ cd
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ cd Desktop
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cp sample.txt test01
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cd test01
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ ls
+     sample.txt
+     
+     
+ 11. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ mkdir test02
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ mv test01 test02
+     
+ 12. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cd test02
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ ls
+     test01
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cd test01
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02/test01$ ls
+     sample.txt
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02/test01$ mv sample.txt sample01.txt
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02/test01$ ls
+     sample01.txt
+     
+ 13. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02/test01$ tac sample01.txt
+     ...appending text...
+     How are you ?
+     Hello there!
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02/test01$ rev sample01.txt
+     !ereht olleH
+     ? uoy era woH
+     ...txet gnidneppa...
+
+
+14. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02/test01$ wc sample01.txt 
+ 3  8 48 sample01.txt
+
+
+15. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ mkdir test03
+
+16. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cd test02
+
+17. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02/test01$ ls
+    sample01.txt
+    sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02/test01$ rm sample01.txt
+    
+    sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test03$ ls
+    sample2.txt
+    sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test03$ cat sample2.txt 
+    New text created...
+    
+    sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ rm -R test03/
+   
+
+18. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ mkdir test01
+    sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls test01
+    sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls test02
+    sample01.txt
+    sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ rmdir test01
+    
+ 19. sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ mkdir test01
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cd test01/
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ touch doc1.tx doc2.txt doc3.txt
+
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ ls
+     doc1.tx  doc2.txt  doc3.txt
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ touch -m doc1.txt doc2.txt doc3.txt 
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ ls -l
+     total 0
+     -rw-rw-r-- 1 sunbeam sunbeam 0 May 31 22:53 doc1.tx
+     -rw-rw-r-- 1 sunbeam sunbeam 0 May 31 23:03 doc1.txt
+     -rw-rw-r-- 1 sunbeam sunbeam 0 May 31 23:03 doc2.txt
+     -rw-rw-r-- 1 sunbeam sunbeam 0 May 31 23:03 doc3.txt
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ ls
+     doc1.tx  doc1.txt  doc2.txt  doc3.txt
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ rm doc1.tx
+     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ ls
+     doc1.txt  doc2.txt  doc3.txt
+
+
+20.  sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ sort test02/sample01.txt 
+     ...appending text...
+     Hello there!
+     How are you ?
+
+
+   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat > test01/doc1.txt 
+   11
+   22
+   2321
+   121
+   4    
+   65
+   324
+   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat test01/doc1.txt 
+   11
+   22
+   2321
+   121
+   4
+   65
+   324
+   
+   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ sort -n doc1.txt 
+   4
+   11
+   22
+   65
+   121
+   324
+   2321
+   
+ 21.    sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ cat doc2.txt 
+        India
+        Australia
+	UK
+	Japan
+	India
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ uniq doc2.txt 
+	India
+	Australia
+	UK
+	Japan
+	India
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ cat >> doc2.txt
+	India
+	India	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ uniq doc2.txt 
+	India
+	Australia
+	UK
+	Japan
+	India
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test01$ sort doc2.txt | uniq
+	Australia
+	India
+	Japan	
+	UK
+	
+  22.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ ls
+	sample01.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat sample01.txt 
+	Hello there!
+	How are you ?
+	...appending text...
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat >> sample01.txt 
+	Running
+	Batting
+	Animals
+	Nature
+	Peace
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat sample01.txt 
+	Hello there!
+	How are you ?
+	...appending text...
+	Running
+	Batting	
+	Animals
+	Nature	
+	Peace
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ head -4 sample01.txt 
+	Hello there!
+	How are you ?
+	...appending text...
+	Running
+ 
+ 
+  23.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ tail -5 sample01.txt 
+	Running
+	Batting
+	Animals
+	Nature
+	Peace
+	
+	
+  24.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ factor 64
+	64: 2 2 2 2 2 2
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ factor 153
+	153: 3 3 17
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ factor 151
+	151: 151
+
+  25.    1354  clear
+	 1355  alias cls=clear
+	 1356  cls
+	 1357  history
+	 sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ 
+	 
+	 
+  26.    sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ alias
+	alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+	alias cls='clear'
+	alias egrep='egrep --color=auto'
+	alias fgrep='fgrep --color=auto'
+	alias grep='grep --color=auto'
+	alias l='ls -CF'
+	alias la='ls -A'
+	alias ll='ls -alF'
+	alias ls='ls --color=auto'
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ unalias cls
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ alias
+	alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+	alias egrep='egrep --color=auto'
+	alias fgrep='fgrep --color=auto'
+	alias grep='grep --color=auto'
+	alias l='ls -CF'
+	alias la='ls -A'
+	alias ll='ls -alF'
+	alias ls='ls --color=auto'
+	
+  27.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ printenv
+
+
+  28.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ ps
+   	PID TTY          TIME CMD
+   	3529 pts/0    00:00:00 bash
+ 	7649 pts/0    00:00:00 ps
+ 	
+
+
+
+
+
+
+
+
+
+

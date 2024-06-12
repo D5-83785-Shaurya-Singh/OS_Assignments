@@ -1,0 +1,342 @@
+Assignment 03
+
+   1.  sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ ls Documents/Operating_System/os/
+	Assignments  day01  day02  OS_Galvin_Slides.pdf
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ ls -a Documents/Operating_System/os/
+	.   Assignments  day02  .gitignore
+	..  day01        .git   OS_Galvin_Slides.pdf
+
+   
+   2.  sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls one/two/three/
+	333.txt  33.txt  3.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ for file in one/two/three/*.txt; do
+	> mv "$file" "${file%.txt}.htm"
+	> done
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls one/two/three/
+	333.htm  33.htm  3.htm
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ for file in one/two/three/*.htm; do
+	> mv "$file" "${file%.htm}.txt" 
+	> done
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls one/two/three/
+	333.txt  33.txt  3.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ for file in one/two/three/*.txt; do
+	> mv "$file" "${file%.txt}.htm"
+	> done
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls one/two/three/
+	333.htm  33.htm  3.htm
+	
+	
+   3.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ln -s one/two/three/33.htm 
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ln -s test02/sample01.txt 
+
+   4.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ln test02/sam1.txt 
+   
+   5.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ stat test02/sample01.txt 
+ 	 File: test02/sample01.txt
+	  Size: 85        	Blocks: 8          IO Block: 4096   regular file
+	Device: 1030ah/66314d	Inode: 3947246     Links: 1
+	Access: (0664/-rw-rw-r--)  Uid: ( 1000/ sunbeam)   Gid: ( 1000/ sunbeam)
+	Access: 2024-06-01 17:38:22.489269334 +0530
+	Modify: 2024-06-01 17:38:15.492888322 +0530
+	Change: 2024-06-01 17:38:15.492888322 +0530
+	 Birth: 2024-05-31 19:03:07.244463328 +0530
+
+
+   6.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ touch test02/sample01.txt 
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -l test02/sample01.txt 
+	-rw-rw-r-- 1 sunbeam sunbeam 85 Jun  2 17:17 test02/sample01.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ stat test02/sample01.txt 
+	  File: test02/sample01.txt
+	  Size: 85        	Blocks: 8          IO Block: 4096   regular file
+	Device: 1030ah/66314d	Inode: 3947246     Links: 1
+	Access: (0664/-rw-rw-r--)  Uid: ( 1000/ sunbeam)   Gid: ( 1000/ sunbeam)
+	Access: 2024-06-02 17:17:09.027424487 +0530
+	Modify: 2024-06-02 17:17:09.027424487 +0530
+	Change: 2024-06-02 17:17:09.027424487 +0530
+	 Birth: 2024-05-31 19:03:07.244463328 +0530
+
+
+   7.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ touch test02/new.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls test02/
+	new.txt  sam1.txt  sample01.txt
+
+
+   8.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat >> test02/new.txt 
+	line1...
+	line2...
+	line3...
+	line4...
+	line5...
+	line6...
+	line7...
+	line8...
+	line9...
+	line10...
+	line11...
+
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ tail +5 test02/new.txt
+	line5...
+	line6...
+	line7...
+	line8...
+	line9...
+	line10...
+	line11...
+	
+	
+   9.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ init 0
+
+
+  12.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ whoami
+	sunbeam
+	
+  13.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ tty
+	/dev/pts/0
+	
+	
+  15.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ users
+	sunbeam
+	
+  16.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ who
+	sunbeam  :0           2024-06-02 17:56 (:0)
+
+
+  17.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ grep line -c test02/new.txt 
+	11	
+  	
+  	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ egrep line test02/new.txt 
+	line1...
+	line2...
+	line3...
+	line4...
+	line5...
+	line6...
+	line7...
+	line8...
+	line9...
+	line10...
+	line11...
+	
+  	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ egrep line -o test02/new.txt 
+	line
+	line
+	line
+	line
+	line
+	line
+	line
+	line
+	line
+	line
+	line
+	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ fgrep -i LINE test02/new.txt 
+	line1...
+	line2...
+	line3...
+	line4...
+	line5...
+	line6...
+	line7...
+	line8...
+	line9...
+	line10...
+	line11...
+
+	
+   18. 	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ chmod -r test02/new.txt 
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat test02/new.txt 
+	cat: test02/new.txt: Permission denied
+	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ chmod +r test02/new.txt 
+	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ chmod -w -x test02/new.txt 
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat test02/new.txt 
+	line1...
+	line2...
+	line3...
+	line4...
+	line5...
+	line6...
+	line7...
+	line8...
+	line9...
+	line10...
+	line11...
+	abcdefghij...
+	testing chmod +r command...
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat >> test02/new.txt 
+	bash: test02/new.txt: Permission denied
+	
+   
+   19.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ chmod +r test02/new.txt
+   	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ chmod +w test02/new.txt 
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ chmod +x test02/new.txt
+	
+   
+   20.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ wc -w test02/sam1.txt 
+	3 test02/sam1.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ wc -w < test02/sam1.txt > test02/sample01.txt 
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat test02/sample01.txt 
+	3
+	
+   21.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ who
+	sunbeam  :0           2024-06-02 17:56 (:0)
+	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ who | wc -w
+	5
+
+   22.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ head new.txt | tail -5
+	line6...
+	line7...
+	line8...
+	line9...
+	line10...
+	
+   23.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat sam1.txt 
+	Shaurya Singh
+	Bhopal
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat >> sam1.txt 
+	Bhopal
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat sam1.txt 
+	Shaurya Singh
+	Bhopal
+	Bhopal
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ sort sam1.txt | uniq sam1.txt 
+	Shaurya Singh
+	Bhopal
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat >> sam1.txt 
+	Bhopal 
+	Bhopal
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat sam1.txt 
+	Shaurya Singh
+	Bhopal
+	Bhopal
+	Bhopal
+	Bhopal
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ sort sam1.txt 
+	Bhopal
+	Bhopal
+	Bhopal
+	Bhopal
+	Shaurya Singh
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ sort sam1.txt | uniq
+	Bhopal
+	Shaurya Singh
+	
+	
+   24.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ who | grep sunbeam
+	sunbeam  :0           2024-06-02 17:56 (:0)
+	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ who | grep ""
+	sunbeam  :0           2024-06-02 17:56 (:0)
+
+
+   25.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -r -S
+ 	sample01.txt                DBT_240344220188
+	 33.htm                      day02
+	 sam1.txt                    day01
+	 sample.txt                  cpp_assignments
+	 DBT_240344220188.zip        cpp-240344220188
+	 wpt_240344220188.zip        a
+	 WPT_240344220188            cpp-240344220188.zip
+	 wpt_240344220188            dbt.txt
+	 WPT                         ss2.zip
+	 test02                     'GUI ScreenShots-20240420.zip'
+	 test01                      DAC_0324_Hackathon_document.pdf
+	 ss     	                     day02.zip
+ 	 src                         day01.zip
+	 react_practice              OS_Galvin_Slides.pdf
+	 one                         WPT.zip
+	'GUI ScreenShots-20240420'
+	
+	
+   26.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls | grep ""
+	33.htm
+	a
+	cpp-240344220188
+	cpp-240344220188.zip
+	cpp_assignments
+	DAC_0324_Hackathon_document.pdf
+	day01
+	day01.zip
+	day02
+	day02.zip
+	DBT_240344220188
+	DBT_240344220188.zip
+	dbt.txt
+	GUI ScreenShots-20240420
+	GUI ScreenShots-20240420.zip
+	one
+	OS_Galvin_Slides.pdf
+	react_practice
+	sam1.txt
+	sample01.txt
+	sample.txt
+	src
+	ss
+	ss2.zip
+	test01
+	test02
+	WPT
+	wpt_240344220188
+	WPT_240344220188
+	wpt_240344220188.zip
+	WPT.zip
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -1A | grep -c .
+	31
+	
+	
+   27.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Documents/Operating_System/os$ ls -a
+	.  ..  Assignments  day01  day02  .git  .gitignore  OS_Galvin_Slides.pdf
+	
+   	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Documents/Operating_System/os$ ls -a | grep "^\."
+	.
+	..
+	.git
+	.gitignore
+	
+   28.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat sam1.txt 
+	Shaurya Singh
+	Bhopal
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat sam1.txt | tr [:lower:] [:upper:]
+	SHAURYA SINGH
+	BHOPAL
+	
+   29.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat new.txt 
+	line1...
+	line2...
+	line3...
+	line4...
+	line5...
+	line6...
+	line7...
+	line8...
+	line9...
+	line10...
+	line11...
+	abcdefghij...
+	testing chmod +r command...
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cut -d 'i' -f1 new.txt 
+	l
+	l
+	l
+	l
+	l	
+	l
+	l
+	l
+	l
+	l
+	l
+	abcdefgh
+	test
+
+
+
+
+
+
+
+
+

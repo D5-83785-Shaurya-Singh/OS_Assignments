@@ -1,0 +1,178 @@
+Assignment 02
+
+
+  1.     sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -t
+ 	 test01                            WPT
+	 test02                            ss2.zip
+	 sample.txt                        ss
+	 react_practice                    WPT.zip
+	 DAC_0324_Hackathon_document.pdf   DBT_240344220188.zip
+	'GUI ScreenShots-20240420'         DBT_240344220188
+	'GUI ScreenShots-20240420.zip'     dbt.txt
+	 wpt_240344220188.zip              cpp-240344220188.zip
+	 wpt_240344220188                  cpp-240344220188
+	 WPT_240344220188                  cpp_assignments
+	 src                               a
+
+
+  2.    sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -r -S
+ 	sample.txt            'GUI ScreenShots-20240420'
+ 	DBT_240344220188.zip   DBT_240344220188
+	 wpt_240344220188.zip   cpp_assignments
+	 WPT_240344220188       cpp-240344220188
+	 wpt_240344220188       a
+	 WPT                    cpp-240344220188.zip
+	 test02                 dbt.txt
+	 test01                 ss2.zip
+	 ss                    'GUI ScreenShots-20240420.zip'
+	 src                    DAC_0324_Hackathon_document.pdf
+	 react_practice         WPT.zip
+	 
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -S
+	 WPT.zip                           react_practice
+	 DAC_0324_Hackathon_document.pdf   src
+	'GUI ScreenShots-20240420.zip'     ss
+	 ss2.zip                           test01
+	 dbt.txt                           test02
+	 cpp-240344220188.zip              WPT
+	 a                                 wpt_240344220188
+	 cpp-240344220188                  WPT_240344220188
+	 cpp_assignments                   wpt_240344220188.zip
+	 DBT_240344220188                  DBT_240344220188.zip
+	'GUI ScreenShots-20240420'         sample.txt
+
+
+   3.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls -i
+	3949083  a                                3942844  sample.txt
+	3956385  cpp-240344220188                 4379806  src
+	3942126  cpp-240344220188.zip             3944546  ss
+	3944622  cpp_assignments                  3933607  ss2.zip
+	3952842  DAC_0324_Hackathon_document.pdf  3944670  test01
+	3940456  DBT_240344220188                 3939032  test02
+	3944257  DBT_240344220188.zip             4102302  WPT
+	3944309  dbt.txt                          3983986  wpt_240344220188
+	3955452 'GUI ScreenShots-20240420'        4080014  WPT_240344220188
+	3944918 'GUI ScreenShots-20240420.zip'    3984031  wpt_240344220188.zip
+	3988973  react_practice                   3956765  WPT.zip
+
+   
+   4.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cd ..
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls test01/
+	doc1.txt  doc2.txt  doc3.txt
+
+
+   5.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat > sam1.txt
+	Chauhan
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat sam1.txt 
+	Chauhan
+	
+   6.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat > sam1.txt 
+	Shaurya Singh
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat >> sam1.txt 
+	Bhopal
+	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat sam1.txt 
+	Shaurya Singh
+	Bhopal
+
+
+   7.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ mkdir one
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cd one/
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one$ touch 1.txt 11.txt 111.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one$ mkdir two
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one$ cd two/
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two$ touch 2.tx 22.tx 222.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two$ mkdir three
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two$ cd three/
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three$ touch 3.txt 33.txt 333.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three$ mkdir four
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three$ cd four/
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four$ touch 4.txt 44.txt 444.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four$ mkdir five
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four$ cd five/
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four/five$ touch 5.txt 55.txt 555.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four/five$ cd 
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ cd Desktop/
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ 
+
+
+   8.   sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls one/two/three/four/five/
+	555.txt  55.txt  5.txt
+	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ ls Desktop/one/two/three/four/five
+	555.txt  55.txt  5.txt
+	
+   
+   	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat > one/two/three/four/44.txt
+	Shaurya
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cat  one/two/three/four/44.txt
+	Shaurya
+
+   	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ rm  one/two/three/four/five/555.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ ls  one/two/three/four/five/
+	55.txt  5.txt
+	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop$ cd  one/two/three/four/five/
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four/five$ ls
+	55.txt  5.txt
+
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four/five$ ls ../..
+	333.txt  33.txt  3.txt  four
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four/five$ ls ../../3.txt 
+	../../3.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four/five$ cat >> ../../3.txt 
+	PGDAC
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four/five$ cat ../../3.txt 
+	PGDAC
+	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four/five$ ls ../../..
+	222.txt  22.tx  2.tx  three
+
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four/five$ rm ../../../222.txt 
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four/five$ ls ../../..
+	22.tx  2.tx  three
+
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one/two/three/four/five$ cd ../../../..
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one$ 
+
+
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one$ ls two/three/four/five/
+	55.txt  5.txt
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one$ rm two/three/four/five/*
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one$ ls two/three/four/five/
+
+
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one$ rmdir two/three/four/five
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one$ ls two/three/four
+	444.txt  44.txt  4.txt
+	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one$ rm -r two/three/four
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one$ ls two/three
+	333.txt  33.txt  3.txt
+
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/one$ cd
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ 
+	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ man ls
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ ls -ld Desktop/one/two/three/
+	drwxrwxr-x 2 sunbeam sunbeam 4096 Jun  2 16:10 Desktop/one/two/three/
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ stat Desktop/one/two/three/
+	  File: Desktop/one/two/three/
+	  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+	Device: 1030ah/66314d	Inode: 3967149     Links: 2
+	Access: (0775/drwxrwxr-x)  Uid: ( 1000/ sunbeam)   Gid: ( 1000/ sunbeam)
+	Access: 2024-06-02 16:10:24.889515039 +0530
+	Modify: 2024-06-02 16:10:15.277363673 +0530
+	Change: 2024-06-02 16:10:15.277363673 +0530
+	 Birth: 2024-06-01 18:55:09.273334694 +0530
+	 
+	
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ touch -m Desktop/one/two/three/
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~$ ls -ld Desktop/one/two/three/
+	drwxrwxr-x 2 sunbeam sunbeam 4096 Jun  2 16:27 Desktop/one/two/three/
+
+	 
+
+
+  
+     

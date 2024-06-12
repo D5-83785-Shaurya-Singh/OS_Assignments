@@ -1,0 +1,84 @@
+Assignment 04
+
+
+  1.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat > data.txt
+	Linux is open source
+	In Linux everything is file
+	files have permissions.
+	files have inode no.
+	files have size.
+	there are several types of files
+	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ cat data.txt 
+	Linux is open source
+	In Linux everything is file
+	files have permissions.
+	files have inode no.
+	files have size.
+	there are several types of files
+	
+   
+   2.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ wc data.txt 
+  	6  25 144 data.txt
+  	
+   
+   3.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ grep "files" data.txt 
+	files have permissions.
+	files have inode no.
+	files have size.
+	there are several types of files
+	
+   
+   4.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ grep "files" data.txt 
+	files have permissions.
+	files have inode no.
+	files have size.
+	there are several types of files
+	
+
+   5.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ grep file data.txt 
+	In Linux everything is file
+	files have permissions.
+	files have inode no.
+	files have size.
+	there are several types of files
+	
+
+   6.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ grep -v "files" data.txt 
+	Linux is open source
+	In Linux everything is file
+	
+	
+   7.  	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ grep 'have' data.txt 
+	files have permissions.
+	files have inode no.
+	files have size.
+	
+	
+   8.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ grep ^f data.txt 
+	files have permissions.
+	files have inode no.
+	files have size.
+	
+	
+   9.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ grep '\.$' data.txt 
+	files have permissions.
+	files have inode no.
+	files have size.
+
+
+   10.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ head -n 2 data.txt 
+	Linux is open source
+	In Linux everything is file
+	
+	
+   11.	sunbeam@sunbeam-VivoBook-ASUSLaptop-X421EAYB-K413EA:~/Desktop/test02$ tail -n 3 data.txt 
+	files have inode no.
+	files have size.
+	there are several types of files
+	
+  
+   12.	
+
+
+
+
