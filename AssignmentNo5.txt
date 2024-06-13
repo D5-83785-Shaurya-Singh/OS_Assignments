@@ -1,0 +1,308 @@
+				Assignment NO 5
+##########################################################################################################
+Q1. Write a shell script to display your LOGIN NAME and HOME directory.
+Ans ------------->
+The Login Name is- sunbeam and home directroy - /home/sunbeam
+
+##########################################################################################################
+Q2. Write a shell script to display menu like “1. Date, 2. Cal, 3. Ls, 4. Pwd, 5. Exit” and
+execute the commands depending on user choice. 
+Ans ---------------->
+1. Date     .1
+2. Calander .2
+3. Ls       .3
+4. PWD      .4
+5. EXIT     .5
+Enter:: 1
+Todays date is Monday 03 June 2024 05:39:01 PM IST
+
+ ----------------------------
+1. Date     .1
+2. Calander .2
+3. Ls       .3
+4. PWD      .4
+5. EXIT     .5
+Enter:: 2
+     June 2024        
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28 29  
+30                    
+
+ ----------------------------
+1. Date     .1
+2. Calander .2
+3. Ls       .3
+4. PWD      .4
+5. EXIT     .5
+Enter:: 3
+List is ->
+que1.sh  que2.sh  que3.sh  que4.sh  que5.sh
+
+ ----------------------------
+1. Date     .1
+2. Calander .2
+3. Ls       .3
+4. PWD      .4
+5. EXIT     .5
+Enter:: 4
+/home/sunbeam/CDAC_Data/06Module_OS/ClassWork/AssSupport
+
+ ----------------------------
+1. Date     .1
+2. Calander .2
+3. Ls       .3
+4. PWD      .4
+5. EXIT     .5
+Enter:: 5
+
+##########################################################################################################
+Q3. Write a shell script to accept the name from the user and check whether user entered
+name is file or directory. If name is file display its size and if it is directory display its
+contents.
+Ans.	---------------->
+sunbeam@sunbeam-LOQ-15IRX9:~/CDAC_Data/06Module_OS/ClassWork/AssSupport$ bash que3.sh
+Enter the path:: que1.sh
+The path entered exits...
+The path entered is of a file...
+
+**************** END of PROGRAM *****************
+
+Enter the path:: ../
+The path entered exits...
+The path entered is a directory...
+
+**************** END of PROGRAM *****************
+
+##########################################################################################################
+Q4. Write a shell script to determine whether a given number is prime or not
+Ans.	--------------------->
+Enter a number :: 73
+The number is a prime number
+
+ ********** End of Program **************
+Enter a number :: 37
+The number is a prime number
+
+ ********** End of Program **************
+Enter a number :: 38
+The number is a NOT a prime number
+
+ ********** End of Program **************
+
+##########################################################################################################
+Q5. Write a Program to find the greatest of three numbers
+Ans.	--------------------->
+Enter num1:: 213
+Enter num2:: 321
+Enter num3:: 234
+NUM2 321 is the greatest...
+
+********** End of Program ***********
+Enter num1:: 5
+Enter num2:: 5
+Enter num3:: 3
+Can't be determined some values are equal
+
+********** End of Program ***********
+
+##########################################################################################################
+Q6. Write a Program to find whether a given year is a leap year or not
+Ans.	------------------------->
+Enter a year :: 1999
+Year entered is NOT leap year
+
+ ******************* End of Program ***************
+Enter a year :: 2000
+Year entered is Leap year
+
+ ******************* End of Program ***************
+Enter a year :: 1900 
+Year entered is NOT leap year
+
+ ******************* End of Program ***************
+
+
+##########################################################################################################
+Q7. Write a Program to find whether a given number is positive or negative 
+Ans.	--------------------------->
+Enter a number:: 5
+Number is POSITIVE
+
+ *************** End of Program **********
+sunbeam@sunbeam-LOQ-15IRX9:~/CDAC_Data/06Module_OS/ClassWork/AssSupport$ bash que7.txt
+Enter a number:: -5
+Number is NEGATIVE
+
+ *************** End of Program **********
+
+
+##########################################################################################################
+Q8. Write a program to print the table of a given number. 
+Ans.	------------------->
+Enter a number to print a table :: 5
+5 X 1 = 5
+5 X 2 = 10
+5 X 3 = 15
+5 X 4 = 20
+5 X 5 = 25
+5 X 6 = 30
+5 X 7 = 35
+5 X 8 = 40
+5 X 9 = 45
+5 X 10 = 50
+
+*******End of Program********
+
+##########################################################################################################
+Q9. Write a program to find the factorial of given number. 
+Ans.	-------------------->
+Enter a number, to find factorail:: 5
+
+************** End of Program *****************
+Enter a number, to find factorail:: 5
+The factorial of number 5 = 120
+
+************** End of Program *****************
+Enter a number, to find factorail:: 4
+The factorial of number 4 = 24
+
+************** End of Program *****************
+Enter a number, to find factorail:: 6
+The factorial of number 6 = 720
+
+************** End of Program *****************
+Enter a number, to find factorail:: 7
+The factorial of number 7 = 5040
+
+************** End of Program *****************
+
+
+##########################################################################################################
+Q10. Write a program to find given number of terms in the Fibonacci series. 
+Ans.	----------------------------->
+Enter nth position to find:: 6
+The 6 th position is 8
+
+********** End of Program ***********
+Enter nth position to find:: 7
+The 7 th position is 13
+
+********** End of Program ***********
+Enter nth position to find:: 10
+The 10 th position is 55
+
+********** End of Program ***********
+
+##########################################################################################################
+Q11. Write a program to calculate gross salary if the DA is 40%, HRA is 20% of basic salary.
+Accept basic salary form user and display gross salary (Result can be floating point
+value).
+Ans.	--------------------->
+Enter Basic Salary:: 10000
+The basic is 10000, DA is 4000.0, HRA is 2000.0 and  gross salary is 16000.0
+
+********** End of Program **********
+
+##########################################################################################################
+Q12. Write a shell script to accept a filename as argument and displays the last modification
+time if the file exists and a suitable message if it doesn’t exist.
+Ans.	-------------------->
+Enter File Name:: que1.sh
+Jun 3 15:18 que1.sh
+*****End of program**********
+
+##########################################################################################################
+Q13. Write a shell script to display only hidden file of current directory.
+Ans.	---------------------->
+Enter directory:: /home/sunbeam
+
+ List of hidden file...
+
+.
+..
+.bash_history
+.bash_logout
+.bashrc
+.cache
+.config
+.dotnet
+.gitconfig
+.gnupg
+.lesshst
+.local
+.mongodb
+.mozilla
+.my.cnf
+.mysql_history
+.npm
+.nvm
+.pki
+.profile
+.ssh
+.sudo_as_admin_successful
+.thunderbird
+.viminfo
+.vimrc
+.vscode
+.yarn
+.yarnrc
+
+***** End of Program *********
+
+
+##########################################################################################################
+Q14. Write a shell script to display only executable files of current directory. 
+Ans.	---------------------->
+sunbeam@sunbeam-LOQ-15IRX9:~/CDAC_Data/06Module_OS/ClassWork/AssSupport$ bash que14.sh
+Enter the directory path:: /home/sunbeam/CDAC_Data/06Module_OS/ClassWork/AssSupport/
+que1.sh
+que2.sh
+que3.sh
+que4.sh
+que5.sh
+
+##########################################################################################################
+Q15. Accept the two file names from user and append the contents in reverse case of first file
+into second file.
+Ans.	----------------------------->
+Enter source file path:: source.txt
+Enter destination file path:: destination.txt
+.enup hcetofni maebnuS ni ydutS I ,enraM tnayaJ ma I ,IH
+
+##########################################################################################################
+Q16. Write a shell script to display welcome message to the user along with contents of his
+home directory. Ensure that shell script will execute automatically when user login to the
+shell. (Make entry of your shell script into .bashrc file into your home directory).
+Ans.	-------------->
+Welcome to bash sunbeam
+sunbeam
+
+
+##########################################################################################################
+Q17. Print the following pattern.
+
+	*
+	* *
+	* * *
+	* * * *
+	* * * * * 
+
+Ans.	----------------->
+
+Enter n:: 7
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * * * 
+* * * * * * * 
+
+********** End of Program ***********
+
+##########################################################################################################
